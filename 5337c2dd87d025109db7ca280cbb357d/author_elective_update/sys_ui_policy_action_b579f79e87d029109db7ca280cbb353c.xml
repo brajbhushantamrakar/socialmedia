@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_reference_6</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 16:17:59</sys_created_on>
+        <sys_id>b579f79e87d029109db7ca280cbb353c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_reference_6</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b579f79e87d029109db7ca280cbb353c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 16:18:50</sys_updated_on>
+        <table>x_792949_enterpris_governance_item</table>
+        <ui_policy display_value="abc">2f677b1e87d029109db7ca280cbb3538</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</application>
+        <file_path/>
+        <instance_id>3757dee4dbe49344536ad5b0cf96199e</instance_id>
+        <instance_name>dev50669</instance_name>
+        <name>sys_ui_policy_action_b579f79e87d029109db7ca280cbb353c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_reference_6</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-12 16:17:59</sys_created_on><sys_id>b579f79e87d029109db7ca280cbb353c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_reference_6</sys_name><sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package><sys_policy/><sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope><sys_update_name>sys_ui_policy_action_b579f79e87d029109db7ca280cbb353c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-12 16:18:50</sys_updated_on><table>x_792949_enterpris_governance_item</table><ui_policy display_value="abc">2f677b1e87d029109db7ca280cbb3538</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-517338722</payload_hash>
+        <record_name>u_reference_6</record_name>
+        <reverted_from/>
+        <source>9f378651871425109db7ca280cbb3522</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 16:18:50</sys_created_on>
+        <sys_id>3bc9779e87d029109db7ca280cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a6c6e45b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 16:18:50</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>73c9779e0dd02910e66fb52afa0c7b1f</update_guid>
+        <update_guid_history>73c9779e0dd02910e66fb52afa0c7b1f:-517338722,6f993f5ebcd029102400bac1af1a38cf:509077438</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 16:39:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>72db1470c1894bc5bce8582ac2eb1901</sys_id>
+        <sys_metadata>b579f79e87d029109db7ca280cbb353c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reference_6</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_parent display_value="abc">2f677b1e87d029109db7ca280cbb3538</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_scope_delete display_value="">b0cee0d4942c426280a424e1bf76f0e4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b579f79e87d029109db7ca280cbb353c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b579f79e87d029109db7ca280cbb353c">3bc9779e87d029109db7ca280cbb351f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 16:39:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

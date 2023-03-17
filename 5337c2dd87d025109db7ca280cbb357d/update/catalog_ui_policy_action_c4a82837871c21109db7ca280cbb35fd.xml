@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="ASA Governance Request Form">55e8c751871825109db7ca280cbb3580</catalog_item>
+        <catalog_variable>IO:6d0f9c22879429109db7ca280cbb3567</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-16 16:56:13</sys_created_on>
+        <sys_id>c4a82837871c21109db7ca280cbb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>is_the_solution_a_multi_year_or_a_large_investment</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c4a82837871c21109db7ca280cbb35fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-16 16:56:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="federated checklist">0d686437871c21109db7ca280cbb352c</ui_policy>
+        <variable>is_the_solution_a_multi_year_or_a_large_investment</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

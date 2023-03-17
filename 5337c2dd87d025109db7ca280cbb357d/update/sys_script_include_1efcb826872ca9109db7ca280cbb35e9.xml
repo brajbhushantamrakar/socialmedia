@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.Show_invite</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Show_invite</name>
+        <script><![CDATA[var Show_invite = Class.create();
+Show_invite.prototype = {
+    initialize: function(number) {
+        var x = new GlideRecord("x_792949_enterpris_engagement");
+        x.addQuery('u_reference_1', number);
+		x.addQuery('type', 'caf');
+        x.query();
+        if (x.next()) {
+            if (x.u_choice_1 == 'reviewed' || x.u_choice_1 == 'review in progerss') {
+                return true;
+            }
+
+        }
+    },
+    invite2: function(number2) {
+        var xx = new GlideRecord("x_792949_enterpris_engagement");
+        xx.addQuery('u_reference_1', number2);
+        xx.addQuery('type', 'arb');
+        xx.query();
+        if (xx.next()) {
+            if (xx.u_choice_1 == 'reviewed') {
+                return true;
+            }
+        }
+    },
+    type: 'Show_invite'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-25 07:41:12</sys_created_on>
+        <sys_id>1efcb826872ca9109db7ca280cbb35e9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Show_invite</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_1efcb826872ca9109db7ca280cbb35e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-15 13:24:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3f185691875425109db7ca280cbb35da" extends="u_governance_request" label="Governance Request" max_length="40" name="x_792949_enterpris_governance_request" type="collection"/>
+</database>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    g_form.setReadOnly('u_reference_1',true);
+	g_form.setReadOnly('u_reference_2',true);
+	g_form.setReadOnly('u_reference_4',true);
+	g_form.setReadOnly('u_reference_5',true);
+	g_form.setReadOnly('u_glide_list_8',true);
+	g_form.setReadOnly('u_glide_list_9',true);
+	g_form.setReadOnly('to_be_approved_by',true);
+	g_form.setReadOnly('approved_by',true);
+	g_form.setReadOnly('u_choice_1',true);
+	g_form.setReadOnly('u_choice_2',true);
+	g_form.setReadOnly('u_glide_date_time_3',true);
+	g_form.setReadOnly('u_reference_6',true);
+	g_form.setReadOnly('u_reference_7',true);
+	g_form.setReadOnly('u_string_10',true);
+	g_form.setReadOnly('type',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>full form read only</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-15 09:38:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae52a991878d25909db7ca280cbb359e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>full form read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_ui_policy_ae52a991878d25909db7ca280cbb359e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 07:16:44</sys_updated_on>
+        <table>x_792949_enterpris_engagement</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

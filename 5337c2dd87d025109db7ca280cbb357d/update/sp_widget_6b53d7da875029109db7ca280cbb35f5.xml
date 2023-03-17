@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	c.links=[
+		{
+			location:"ats?id=sc_cat_item&sys_id=55e8c751871825109db7ca280cbb3580",
+			label:"StarASA",
+			image:"H2.png"
+			
+		},
+					{
+			location:"ats?id=13jan&table=x_792949_enterpris_governance_item",
+			label:"My Governance Item",
+			image:"H3.png"
+		},
+	{
+			location:"ats?id=1_feb&table=x_792949_enterpris_engagement&part=my_reviewer",
+			label:"My Reviews",
+			image:"H4.png"
+		},
+	{
+			location:"ats?id=1_feb&table=x_792949_enterpris_engagement&part=my_approver",
+			label:"My Approvals",
+			image:"H4.png"
+		}
+
+	]
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>12jan_a</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>12JAN_a</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 13:30:52</sys_created_on>
+        <sys_id>6b53d7da875029109db7ca280cbb35f5</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>12JAN_a</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sp_widget_6b53d7da875029109db7ca280cbb35f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-01 17:40:04</sys_updated_on>
+        <template><![CDATA[<div>
+ <head>
+<style>
+button{       
+background-color: white;
+border-width: 5px;
+border-color: #bbbbbb;
+margin-top:40px;
+margin-bottom: 40px;
+margin-left: 100px;
+ }
+img{
+  width: 50px;
+  height: 50px;
+  }
+a{
+  text-decoration: none;
+  color: black;
+  }
+    
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5 border">
+  <button type="button" class="link_wrapper border" ng-repeat="link in c.links">
+  <img src="{{link.image}}"/>
+  <a href="{{link.location}}"><span>{{link.label}}</span> </a>  
+</button>
+    </div>
+  </body>
+</div>]]></template>
+    </sp_widget>
+</record_update>

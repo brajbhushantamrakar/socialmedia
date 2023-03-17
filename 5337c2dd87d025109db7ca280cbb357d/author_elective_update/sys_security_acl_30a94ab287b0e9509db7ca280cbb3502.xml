@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_792949_enterpris_sad_document</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-07 17:57:56</sys_created_on>
+        <sys_id>30a94ab287b0e9509db7ca280cbb3502</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_792949_enterpris_sad_document</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_security_acl_30a94ab287b0e9509db7ca280cbb3502</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-07 18:08:10</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</application>
+        <file_path/>
+        <instance_id>3757dee4dbe49344536ad5b0cf96199e</instance_id>
+        <instance_name>dev50669</instance_name>
+        <name>sys_security_acl_30a94ab287b0e9509db7ca280cbb3502</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_792949_enterpris_sad_document</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-07 17:57:56</sys_created_on><sys_id>30a94ab287b0e9509db7ca280cbb3502</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_792949_enterpris_sad_document</sys_name><sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package><sys_policy/><sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope><sys_update_name>sys_security_acl_30a94ab287b0e9509db7ca280cbb3502</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-07 18:08:10</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-418545410</payload_hash>
+        <record_name>x_792949_enterpris_sad_document</record_name>
+        <reverted_from/>
+        <source>0907479187b065509db7ca280cbb3522</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-07 18:08:11</sys_created_on>
+        <sys_id>432c867687b0e9509db7ca280cbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1862d1057290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-07 18:08:11</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8b2c86766db0e95008bd365e99ec54c3</update_guid>
+        <update_guid_history>8b2c86766db0e95008bd365e99ec54c3:-418545410,41d90eb283b0e9504389e03672d9b421:-53382825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-07 18:16:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>22d2d351752346f89d736dae7bb5dc91</sys_id>
+        <sys_metadata>30a94ab287b0e9509db7ca280cbb3502</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_792949_enterpris_sad_document</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_parent display_value="x_792949_enterpris_sad_document">39485a91875425109db7ca280cbb350f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_scope_delete display_value="">b0cee0d4942c426280a424e1bf76f0e4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_30a94ab287b0e9509db7ca280cbb3502</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_30a94ab287b0e9509db7ca280cbb3502">432c867687b0e9509db7ca280cbb35c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-07 18:16:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

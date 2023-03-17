@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.Approval_group</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Approval_group</name>
+        <script><![CDATA[var Approval_group = Class.create();
+Approval_group.prototype = {
+    aman: function(number) {
+        // var record = producer.;
+
+        var review = new GlideRecord("x_792949_enterpris_engagement");
+        review.addQuery('u_reference_1', number);
+        review.query();
+		
+		while (review.next()){
+        var k = review.getRowCount();
+        var kl = 0,
+            kv = 0;
+        var a = new GlideRecord("x_792949_enterpris_engagement");
+        a.addQuery('u_reference_1', number);
+        a.addQuery('u_choice_1=approved');
+        a.query();
+        while (a.next()) {
+            kl++;
+            
+        }
+        var b = new GlideRecord("x_792949_enterpris_engagement");
+        b.addQuery('u_reference_1', number);
+        b.addQuery('u_choice_1=not approved');
+        b.query();
+        while (b.next()) {
+            kv++;
+
+
+        }
+
+
+        if (k == kl || k == kv) {
+            return true;
+        } else {
+            return false;
+        }
+		}
+    },
+
+    type: 'Approval_group'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-28 20:12:33</sys_created_on>
+        <sys_id>bb868b2b876cad109db7ca280cbb351d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Approval_group</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_bb868b2b876cad109db7ca280cbb351d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-31 05:52:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

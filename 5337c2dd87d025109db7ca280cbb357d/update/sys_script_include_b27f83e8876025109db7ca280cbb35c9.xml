@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.groups_18jan</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>groups_18jan</name>
+        <script><![CDATA[var groups_18jan = Class.create();
+groups_18jan.prototype = {
+    abc: function(number, test1, number1, ram, req_title) {
+        var red = new GlideRecord('sys_user_group');
+        red.addQuery('parent', test1);
+        red.addEncodedQuery('nameLIKEApprovers');
+        red.query();
+        if (red.next()) {
+            var qwerty = new GlideRecord("x_792949_enterpris_engagement");
+            qwerty.addQuery('u_number', number);
+            qwerty.u_reference_6 = red.sys_id;
+            qwerty.u_reference_1 = number1;
+			qwerty.u_reference_4 = ram;
+			qwerty.u_string_10 = req_title;
+			qwerty.u_choice_1 = 'awaiting review';
+			
+            qwerty.update();
+        }
+        var green = new GlideRecord('sys_user_group');
+        green.addQuery('parent', test1);
+        green.addEncodedQuery('nameLIKEReviewers');
+        green.query();
+        if (green.next()) {
+            qwerty.u_reference_7 = green.sys_id;
+            qwerty.update();
+        }
+    },
+    type: 'groups_18jan'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-19 13:01:58</sys_created_on>
+        <sys_id>b27f83e8876025109db7ca280cbb35c9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>groups_18jan</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_b27f83e8876025109db7ca280cbb35c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 07:15:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

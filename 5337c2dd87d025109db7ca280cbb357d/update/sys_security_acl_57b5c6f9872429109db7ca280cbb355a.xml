@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow create for records in x_792949_enterpris_governance_item, for users with roles (user, u_governance_items_user), and if the ACL script returns true.</description>
+        <name>x_792949_enterpris_governance_item</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[anwer = checkUser();
+
+function checkUser() {
+    if (gs.getUserID() == current.u_reference_4) {
+        return true;
+    } else {
+        return false;
+    }
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-23 04:52:34</sys_created_on>
+        <sys_id>57b5c6f9872429109db7ca280cbb355a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_792949_enterpris_governance_item</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_security_acl_57b5c6f9872429109db7ca280cbb355a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-23 09:30:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

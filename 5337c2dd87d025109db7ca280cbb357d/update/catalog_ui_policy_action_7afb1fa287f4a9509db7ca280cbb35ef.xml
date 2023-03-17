@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Update Governance Item">26d7b21187d425109db7ca280cbb3520</catalog_item>
+        <catalog_variable>IO:79d4475d87d425109db7ca280cbb357b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-07 05:18:41</sys_created_on>
+        <sys_id>7afb1fa287f4a9509db7ca280cbb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>upload_sad_document</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7afb1fa287f4a9509db7ca280cbb35ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-07 05:18:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="upload sad hide">7b09d3ee87b4a9509db7ca280cbb35a3</ui_policy>
+        <variable>upload_sad_document</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

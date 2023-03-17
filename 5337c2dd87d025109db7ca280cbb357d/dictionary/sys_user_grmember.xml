@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ih_process_sync_enabled=true,iterativeDelete=true,metadata_link_exempt=true" db_object_id="108f0e20f90211108c8bd16244dfe77b" label="Group Member" max_length="40" name="sys_user_grmember" type="collection">
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="x_792949_enterpris_u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Group" max_length="32" name="x_792949_enterpris_u_reference_2" reference="sys_user_group" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.email</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>email</name>
+        <script><![CDATA[var email = Class.create();
+email.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    get_email: function() {
+        var userArr = this.getParameter('sysparm_users');
+        userArr = userArr.split(',');
+        var emailArr = [];
+
+        for (var i = 0; i < userArr.length; i++) {
+            var grUser = new GlideRecord('sys_user');
+           
+                if (grUser.get(userArr[i])) {
+                    emailArr.push(grUser.getValue('email'));
+                }
+            }
+		
+            emailArr.join();
+
+            return emailArr.toString();
+        
+    },
+
+    type: 'email'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 11:27:47</sys_created_on>
+        <sys_id>91a6acc087e861109db7ca280cbb350a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_91a6acc087e861109db7ca280cbb350a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-17 11:27:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

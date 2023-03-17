@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_reference_7</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>auto group member</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+      //Type appropriate comment here, and begin script below
+          var apps = new GlideAjax('getGroupMembers'); // script include
+    apps.addParam('sysparm_name', 'getGroupMember');
+	apps.addParam('sysparm_groupName', g_form.getValue('u_reference_7'));
+    apps.getXML(assetList);
+
+    function assetList(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        //filterString = answer;
+		var n = g_form.getValue("u_glide_list_9");
+		if(n==""){
+		g_form.setValue('u_glide_list_8', answer);
+}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-01 05:23:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39232434873ca1509db7ca280cbb350a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>auto group member</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_client_39232434873ca1509db7ca280cbb350a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 13:36:55</sys_updated_on>
+        <table>x_792949_enterpris_engagement</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

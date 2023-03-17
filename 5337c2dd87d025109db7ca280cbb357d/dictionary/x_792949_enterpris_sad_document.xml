@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7d485a91875425109db7ca280cbb350d" extends="u_sad_document" label="SAD Document" max_length="40" name="x_792949_enterpris_sad_document" type="collection">
+        <element attributes="encode_utf8=false" label="Governance Item ID" max_length="32" name="u_reference_2" reference="x_792949_enterpris_governance_item" type="reference"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+    </element>
+</database>

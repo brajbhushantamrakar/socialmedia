@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.asa_override</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>asa_override</name>
+        <script><![CDATA[var asa_override = Class.create();
+asa_override.prototype = {
+   abc: function(number) {
+        var a = new GlideRecord('x_792949_enterpris_governance_item');
+        a.addQuery('sys_id', number);
+        a.query();
+        if (a.next()) {
+            if (a.u_choice_1 == 'asa closed (not architecturally significant)' || a.u_choice_1== 'asa completed ( architecturally significant)') {
+                return true;
+            }
+        }
+    },
+    xyz: function(group) {
+        var we = new GlideRecord('sys_user_group');
+        we.addQuery('name', group);
+        we.query();
+        if (we.next()) {
+            if (gs.getUser().isMemberOf(we.sys_id) && gs.hasRole('x_792949_enterpris.ats_approver')) {
+                return true;
+            }
+        }
+    },
+    type: 'asa_override'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-10 04:48:24</sys_created_on>
+        <sys_id>31c07eeb87f0ad509db7ca280cbb3504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asa_override</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_31c07eeb87f0ad509db7ca280cbb3504</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-10 04:48:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

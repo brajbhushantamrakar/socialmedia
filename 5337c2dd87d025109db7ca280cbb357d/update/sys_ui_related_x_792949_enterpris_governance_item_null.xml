@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_792949_enterpris_governance_item" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Governance item - Default view" name="x_792949_enterpris_governance_item" related_list="NULL" sys_domain="global" view="Default view">fd573404872c61109db7ca280cbb3588</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_792949_enterpris_engagement.u_reference_1</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-17 12:38:33</sys_created_on>
+            <sys_id>f1577404872c61109db7ca280cbb351f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-17 12:38:33</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Governance item - Default view" name="x_792949_enterpris_governance_item" related_list="NULL" sys_domain="global" view="Default view">fd573404872c61109db7ca280cbb3588</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-17 12:38:33</sys_created_on>
+            <sys_id>f9577404872c61109db7ca280cbb351f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-17 12:38:33</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Governance item - Default view" name="x_792949_enterpris_governance_item" related_list="NULL" sys_domain="global" view="Default view">fd573404872c61109db7ca280cbb3588</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_792949_enterpris_sad_document.u_reference_2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-17 12:38:33</sys_created_on>
+            <sys_id>fd577404872c61109db7ca280cbb351f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-17 12:38:33</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Governance item - Default view</calculated_name>
+            <filter/>
+            <name>x_792949_enterpris_governance_item</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-17 12:38:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd573404872c61109db7ca280cbb3588</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Governance item - Default view</sys_name>
+            <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+            <sys_update_name>sys_ui_related_x_792949_enterpris_governance_item_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-17 12:38:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

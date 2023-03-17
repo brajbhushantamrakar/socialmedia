@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Override To (I want to update the current ASA outcome to as follows:)">6bee1a59875425109db7ca280cbb351a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-09 07:10:05</sys_created_on>
+        <sys_id>145f1299875425109db7ca280cbb3527</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>No override</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>question_choice_145f1299875425109db7ca280cbb3527</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-09 07:10:13</sys_updated_on>
+        <text>No override</text>
+        <value>No override</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=145f1299875425109db7ca280cbb3527"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</application>
+        <file_path/>
+        <instance_id>3757dee4dbe49344536ad5b0cf96199e</instance_id>
+        <instance_name>dev50669</instance_name>
+        <name>question_choice_145f1299875425109db7ca280cbb3527</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Override To (I want to update the current ASA outcome to as follows:)">6bee1a59875425109db7ca280cbb351a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-09 07:10:05</sys_created_on><sys_id>145f1299875425109db7ca280cbb3527</sys_id><sys_mod_count>1</sys_mod_count><sys_name>No override</sys_name><sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package><sys_policy/><sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope><sys_update_name>question_choice_145f1299875425109db7ca280cbb3527</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-09 07:10:13</sys_updated_on><text>No override</text><value>No override</value></question_choice><fx_price action="delete_multiple" query="id=145f1299875425109db7ca280cbb3527"/></record_update>]]></payload>
+        <payload_hash>1356207779</payload_hash>
+        <record_name>No override</record_name>
+        <reverted_from/>
+        <source>9f378651871425109db7ca280cbb3522</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-09 07:10:13</sys_created_on>
+        <sys_id>da7f1a59875425109db7ca280cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185955d88da0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-09 07:10:13</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>167f1a594b542510ec16fb6627bf7f5b</update_guid>
+        <update_guid_history>167f1a594b542510ec16fb6627bf7f5b:1356207779,107f1e19ea5425106230aa5bde814921:-1208270331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="No override">545c0b8387b42d509db7ca280cbb3522</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-08 17:26:55</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>3b2c90444f184e348141d60452af8890</sys_id>
+        <sys_metadata>145f1299875425109db7ca280cbb3527</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No override</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_parent display_value="Override To (I want to update the current ASA outcome to as follows:)">6bee1a59875425109db7ca280cbb351a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_scope_delete display_value="">b0cee0d4942c426280a424e1bf76f0e4</sys_scope_delete>
+        <sys_update_name>question_choice_145f1299875425109db7ca280cbb3527</sys_update_name>
+        <sys_update_version display_value="question_choice_145f1299875425109db7ca280cbb3527">da7f1a59875425109db7ca280cbb355b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-08 17:26:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

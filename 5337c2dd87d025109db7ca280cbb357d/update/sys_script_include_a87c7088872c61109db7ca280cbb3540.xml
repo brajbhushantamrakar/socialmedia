@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_792949_enterpris.attach</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>attach</name>
+        <script><![CDATA[var attach = Class.create();
+attach.prototype = {
+    attachment: function(attach_other_document, u_number) {
+                var gr = new GlideRecord("sys_attachment");
+                gr.addQuery("sys_id", attach_other_document);
+                gr.query();
+                if (gr.next()) {
+                    gr.table_name = 'x_792949_enterpris_governance_item';
+                    gr.table_sys_id = u_number;
+                    gr.update();
+                }
+
+
+            },
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 13:00:52</sys_created_on>
+        <sys_id>a87c7088872c61109db7ca280cbb3540</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>attach</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_a87c7088872c61109db7ca280cbb3540</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-19 07:15:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

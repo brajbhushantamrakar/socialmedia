@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>update_governance_item</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Update Governance Item</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[action.setRedirectURL('sp?id=sc_cat_item&sys_id=26d7b21187d425109db7ca280cbb3520');]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 18:13:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3935c66875429109db7ca280cbb35cc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Update Governance Item</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_ui_action_c3935c66875429109db7ca280cbb35cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-16 06:56:37</sys_updated_on>
+        <table>x_792949_enterpris_governance_item</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</application>
+        <file_path/>
+        <instance_id>3757dee4dbe49344536ad5b0cf96199e</instance_id>
+        <instance_name>dev50669</instance_name>
+        <name>sys_ui_action_c3935c66875429109db7ca280cbb35cc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;update_governance_item&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Update Governance Item&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[action.setRedirectURL('sp?id=sc_cat_item&amp;sys_id=26d7b21187d425109db7ca280cbb3520');]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-01-12 18:13:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c3935c66875429109db7ca280cbb35cc&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Governance Item&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris"&gt;5337c2dd87d025109db7ca280cbb357d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Enterprise Governance Architecture"&gt;5337c2dd87d025109db7ca280cbb357d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_c3935c66875429109db7ca280cbb35cc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-01-16 06:56:37&lt;/sys_updated_on&gt;&lt;table&gt;x_792949_enterpris_governance_item&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1062848347</payload_hash>
+        <record_name>Update Governance Item</record_name>
+        <reverted_from/>
+        <source>9f378651871425109db7ca280cbb3522</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-16 06:56:37</sys_created_on>
+        <sys_id>d77f9aaf87d021109db7ca280cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185b95d9be80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-16 06:56:37</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>137f9aaf65d021101b346fe25fa02752</update_guid>
+        <update_guid_history>137f9aaf65d021101b346fe25fa02752:1062848347,bc4b162fe7d02110734206ecb823a76e:1544496278,a30ad22f9ed02110e948db257b025c92:1050102410,c88996eb51d0211013b7fd09154d5f6a:905083695,87e89eab4cd02110109cefce21e94bfb:-1010683484,862490668c5429105a34ddbf3d69422c:-769231208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-16 07:07:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>66704d44549c4626b547ffe0439d2b64</sys_id>
+        <sys_metadata>c3935c66875429109db7ca280cbb35cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Governance Item</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_parent display_value="Governance item">121dc6d5871425109db7ca280cbb35e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_scope_delete display_value="">b0cee0d4942c426280a424e1bf76f0e4</sys_scope_delete>
+        <sys_update_name>sys_ui_action_c3935c66875429109db7ca280cbb35cc</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_c3935c66875429109db7ca280cbb35cc">d77f9aaf87d021109db7ca280cbb3552</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-16 07:07:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

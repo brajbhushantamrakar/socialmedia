@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.onchange</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>onchange</name>
+        <script><![CDATA[var onchange = Class.create();
+onchange.prototype = {
+    change: function(group) {
+        var arr1 = [];
+        group = this.getParameter('sysparm_group');
+        var get = new GlideRecord('sys_user_grmember');
+        get.addQuery('group', group);
+        get.query();
+        while (get.next()) {
+            arr1.push(get.user.email.toString());
+        }
+        return arr1.join(',');
+    },
+    type: 'onchange'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 08:46:36</sys_created_on>
+        <sys_id>c0ae52ad8741a5909db7ca280cbb35d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onchange</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_c0ae52ad8741a5909db7ca280cbb35d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 08:47:28</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</application>
+        <file_path/>
+        <instance_id>3757dee4dbe49344536ad5b0cf96199e</instance_id>
+        <instance_name>dev50669</instance_name>
+        <name>sys_script_include_c0ae52ad8741a5909db7ca280cbb35d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_792949_enterpris.onchange&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;onchange&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var onchange = Class.create();
+onchange.prototype = {
+    change: function(group) {
+        var arr1 = [];
+        group = this.getParameter('sysparm_group');
+        var get = new GlideRecord('sys_user_grmember');
+        get.addQuery('group', group);
+        get.query();
+        while (get.next()) {
+            arr1.push(get.user.email.toString());
+        }
+        return arr1.join(',');
+    },
+    type: 'onchange'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-02-16 08:46:36&lt;/sys_created_on&gt;&lt;sys_id&gt;c0ae52ad8741a5909db7ca280cbb35d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;onchange&lt;/sys_name&gt;&lt;sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris"&gt;5337c2dd87d025109db7ca280cbb357d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Enterprise Governance Architecture"&gt;5337c2dd87d025109db7ca280cbb357d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c0ae52ad8741a5909db7ca280cbb35d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-02-16 08:47:28&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-900804684</payload_hash>
+        <record_name>onchange</record_name>
+        <reverted_from/>
+        <source>0907479187b065509db7ca280cbb3522</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 08:47:28</sys_created_on>
+        <sys_id>112222a18781a5909db7ca280cbb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18659683b5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 08:47:28</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>592222a11c81a59060bc1d03b3785877</update_guid>
+        <update_guid_history>592222a11c81a59060bc1d03b3785877:-900804684,f8f12e61ba81a59076d853d9957b17f5:-718245823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-16 08:48:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4c8c4b45eac44d44a07a3a3c2b0ef2e4</sys_id>
+        <sys_metadata>c0ae52ad8741a5909db7ca280cbb35d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onchange</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_scope_delete display_value="">b0cee0d4942c426280a424e1bf76f0e4</sys_scope_delete>
+        <sys_update_name>sys_script_include_c0ae52ad8741a5909db7ca280cbb35d6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c0ae52ad8741a5909db7ca280cbb35d6">112222a18781a5909db7ca280cbb3578</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-16 08:48:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

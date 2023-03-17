@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_792949_enterpris.MyDateTimeAjax </api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>MyDateTimeAjax </name>
+        <script><![CDATA[var MyDateTimeAjax  = Class.create();
+MyDateTimeAjax .prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+      nowDateTime: function () {
+              return gs.nowDateTime();
+      },  
+    type: 'MyDateTimeAjax '
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 11:28:40</sys_created_on>
+        <sys_id>439f360d87f025509db7ca280cbb3517</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MyDateTimeAjax </sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_439f360d87f025509db7ca280cbb3517</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 11:47:36</sys_updated_on>
+    </sys_script_include>
+</record_update>

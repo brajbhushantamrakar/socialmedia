@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="58c7de51875425109db7ca280cbb35d3" extends="u_engagement" label="Engagement" max_length="40" name="x_792949_enterpris_engagement" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approved By" max_length="1024" name="approved_by" reference="sys_user" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" dependent="u_reference_6" dependent_on_field="u_reference_6" label="To be Approved By" max_length="1024" name="to_be_approved_by" reference="sys_user" type="glide_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ARB" sequence="0" value="arb"/>
+                <element inactive_on_update="false" label="CAF" sequence="1" value="caf"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="To be Approved By" max_length="1024" name="u_glide_list_1" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="100" name="u_string_1" type="string"/>
+    </element>
+</database>

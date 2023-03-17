@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_792949_enterpris.status_change</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>status_change</name>
+        <script><![CDATA[var status_change = Class.create();
+status_change.prototype = {
+
+    status: function() {
+        var abc = new GlideRecord('x_792949_enterpris_governance_item');
+        abc.addQuery('sys_id', current.sys_id);
+        abc.query();
+        while (abc.next()) {
+            current.u_choice_1 = 'sad uploaded (approval in progress)';
+            current.update();
+        }
+        var pqr = new GlideRecord('x_792949_enterpris_engagement');
+        pqr.addQuery('u_reference_1', current.sys_id);
+        pqr.query();
+        while (pqr.next()) {
+            pqr.u_choice_1 = 'request approval';
+            pqr.update();
+        }
+
+        var po = new GlideRecord('x_792949_enterpris_sad_document');
+        po.addQuery('u_reference_2', current.sys_id);
+		po.addEncodedQuery('u_choice_2=draft for review^u_choice_2!=expired');
+        po.query();
+        while (po.next()) {
+            po.u_choice_2 = 'draft for approval';
+            po.update();
+        }
+
+    },
+    eng_status_a: function() {
+
+        var abc = new GlideRecord('x_792949_enterpris_governance_item');
+        abc.addQuery('sys_id', current.sys_id);
+        abc.query();
+        while (abc.next()) {
+            var we = new GlideRecord("x_792949_enterpris_engagement");
+            we.addQuery('u_reference_1', current.sys_id);
+            we.addQuery('u_choice_1', "approved");
+            we.query();
+            while (we.next()) {
+                current.u_choice_1 = 'completed (digitally approved)';
+                current.update();
+            }
+            var wee = new GlideRecord("x_792949_enterpris_engagement");
+            wee.addQuery('u_reference_1', current.sys_id);
+            wee.addQuery('u_choice_1', "not approved");
+            wee.query();
+            while (wee.next()) {
+                current.u_choice_1 = 'completed(digitally not approved)';
+                current.update();
+            }
+        }
+    },
+
+    type: 'status_change'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-24 15:19:32</sys_created_on>
+        <sys_id>ebfc111e87ac69109db7ca280cbb3541</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>status_change</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>sys_script_include_ebfc111e87ac69109db7ca280cbb3541</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-09 09:11:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Update Governance Item">26d7b21187d425109db7ca280cbb3520</catalog_item>
+        <catalog_variable>IO:24f64bdd87d425109db7ca280cbb35ae</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 07:24:11</sys_created_on>
+        <sys_id>e75f79da871ce5109db7ca280cbb35e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sad_short_description</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e75f79da871ce5109db7ca280cbb35e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:24:11</sys_updated_on>
+        <table/>
+        <ui_policy display_value="options">c12fb5da871ce5109db7ca280cbb354a</ui_policy>
+        <variable>sad_short_description</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

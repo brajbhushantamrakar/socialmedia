@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Approval Group Decision">bd59d6d1875425109db7ca280cbb3527</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 11:48:51</sys_created_on>
+        <sys_id>e758784987c9e1909db7ca280cbb3596</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Refer to Forum</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_update_name>question_choice_e758784987c9e1909db7ca280cbb3596</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 11:49:04</sys_updated_on>
+        <text>Refer to Forum</text>
+        <value>refer to forum</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=e758784987c9e1909db7ca280cbb3596"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</application>
+        <file_path/>
+        <instance_id>3757dee4dbe49344536ad5b0cf96199e</instance_id>
+        <instance_name>dev50669</instance_name>
+        <name>question_choice_e758784987c9e1909db7ca280cbb3596</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Approval Group Decision">bd59d6d1875425109db7ca280cbb3527</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-14 11:48:51</sys_created_on><sys_id>e758784987c9e1909db7ca280cbb3596</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Refer to Forum</sys_name><sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package><sys_policy/><sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope><sys_update_name>question_choice_e758784987c9e1909db7ca280cbb3596</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-14 11:49:04</sys_updated_on><text>Refer to Forum</text><value>refer to forum</value></question_choice><fx_price action="delete_multiple" query="id=e758784987c9e1909db7ca280cbb3596"/></record_update>]]></payload>
+        <payload_hash>-1411594059</payload_hash>
+        <record_name>Refer to Forum</record_name>
+        <reverted_from/>
+        <source>0907479187b065509db7ca280cbb3522</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 11:49:04</sys_created_on>
+        <sys_id>b188700d87c9e1909db7ca280cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1864fc1c6000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 11:49:04</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>f988700de6c9e190775fb4c62f0fd376</update_guid>
+        <update_guid_history>f988700de6c9e190775fb4c62f0fd376:-1411594059,3e7878890bc9e190b3b2e1c730b11984:1208930006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Refer to Forum">de68890d870de1909db7ca280cbb35e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-14 12:58:28</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>b33abca1429e4a4a91aed8c0b351b1a4</sys_id>
+        <sys_metadata>e758784987c9e1909db7ca280cbb3596</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refer to Forum</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_parent display_value="Approval Group Decision">bd59d6d1875425109db7ca280cbb3527</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_scope_delete display_value="">b0cee0d4942c426280a424e1bf76f0e4</sys_scope_delete>
+        <sys_update_name>question_choice_e758784987c9e1909db7ca280cbb3596</sys_update_name>
+        <sys_update_version display_value="question_choice_e758784987c9e1909db7ca280cbb3596">b188700d87c9e1909db7ca280cbb3577</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-14 12:58:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

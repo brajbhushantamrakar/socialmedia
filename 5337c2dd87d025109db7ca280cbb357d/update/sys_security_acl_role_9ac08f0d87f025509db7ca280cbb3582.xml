@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 11:28:41</sys_created_on>
+        <sys_id>9ac08f0d87f025509db7ca280cbb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyDateTimeAjax .user</sys_name>
+        <sys_package display_value="Enterprise Governance Architecture" source="x_792949_enterpris">5337c2dd87d025109db7ca280cbb357d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Enterprise Governance Architecture">5337c2dd87d025109db7ca280cbb357d</sys_scope>
+        <sys_security_acl display_value="MyDateTimeAjax ">c2c08f0d87f025509db7ca280cbb357f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9ac08f0d87f025509db7ca280cbb3582</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-02 11:28:41</sys_updated_on>
+        <sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
